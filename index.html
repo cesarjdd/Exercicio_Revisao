@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset='UTF-8'>
-<title>Exercício de Revisão</title>
+    <meta charset='UTF-8'>
+    <!-- <link rel='icone' charset ='icone.ico'/>-->
+    <title>Exercício de Revisão</title>
+    
+
+</head>
 <ul>
     <li> Home</li></a>
     <a href = '#secao1'><li> Seção 1</li></a>
@@ -10,12 +14,22 @@
     <a href = '#secao3'><li> Seção 3</li></a>
     <a href = '#secao4'><li> Seção 4</li></a>
     <a href = '#rodape'><li> Rodapé</li></a>
-</ul>
+    </ul>
 
-</head>
+<!--   Fazer comentário-->
+<!--
+    <strong> Negrito </strong>
+    <em> Italico </em> 
+    <u> Sublinhado </u> 
+    <strong> <em> Negrito-Italico </strong> </em> 
+    
+    <p> Novo Paragrafo </p>
+
+-->
+
 <body>
 <br> 
-    <a name="secao1" id="secao1"> Seção 1</a>
+    <a name="secao1" id="secao1"> Seção 1 - Descrição</a>
     
     <h1>A Máquina do Mundo</h1>
     <H2>Carlos Drummond de Andrade </H2>
@@ -32,43 +46,68 @@
  
     <img src='imagem.jpg'>    
 
-<br><a name="secao2" id="secao2"> Seção 2</a>
+<br><a name="secao2" id="secao2"> Seção 2 - Listagens</a>
 <h2>Lista de Compras </h1>
-<ol>
-<li>Sabão em pó</li>
-<li>Detergente</li>
-<li>Amaciante</li>
-<li>Alvejante</li>
-</ol>
+    <ol>
+        <li>Sabão em pó</li>
+        <li>Detergente</li>
+        <li>Amaciante</li>
+        <li>Alvejante</li>
+    </ol>
 <h2>Afazeres</h2>
-<ul>
-<li>Lavar a roupa</li>
-<li>Estender a roupa</li>
-<li>Dobrar a roupa</li>
-<li>Guardar a roupa</li>
-</ul>
+    <ul>
+        <li>Lavar a roupa</li>
+        <li>Estender a roupa</li>
+        <li>Dobrar a roupa</li>
+        <li>Guardar a roupa</li>
+    </ul>
 
-<br><a name="secao3" id="secao3"> Seção 3</a>
-<form>
-    
-    Nome completo: <input name = 'nome'><br>
-    Cor favorita: <input name ='cor'><br>
-    Data de Nascimento: <input name = 'data'><br>
-    Salário: <input name = 'salario'> <br>
+<br><a name="secao3" id="secao3"> Seção 3 - Formulário</a>
+    <form
+        action=''
+        method='get'
+        name='cadastro'>
+        <label> Nome completo:  </label>
+        <input type='text' maxlength='30' size='30' name='nome'/> <br>
 
+        <label> Cor favorita: </label> 
+        <input type='text' maxlength='20' size='30'  name='cor'/> <br>
 
-    
-</form>
+        <label> Data de Nascimento: </label> 
+        <input type='text' malengthx="10" size='30' name='data'/> <br>
 
-<br><a name="secao4" id="secao4"> Seção 4</a>
+        <label> Salário: </label> 
+        <input type='text' max="10" size='30' name='salario'/> <br>
 
-<br> tabela aqui
-<br>
+        <input type ='submit'value='Enviar dados' />
+        <input type ='reset' value='Limpar formulário'/>
+
+    </form>
+
+<br><a name="secao4" id="secao4"> Seção 4 - Tabela</a>
+
+<br> 
+
+<table border='1'>
+    <tr>
+        <td>Nome completo</td>
+        <td>Cor favorita</td>
+        <td>Data de nascimento</td>
+        <td>Salário</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>    
+</table>
+
 <br><a name="rodape" id="rodape"> Rodapé</a>
     
-    <br>Exercício de Revisão
-    <br>César José Dalla
-    <br>RA 1902423
+    <br><strong> <em> Exercício de Revisão </strong></em>
+    <P> <em> César José Dalla </br>RA 1902423 </em> </p>
+    
 
 </body>
 </html>
